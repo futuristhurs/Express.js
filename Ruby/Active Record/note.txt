@@ -1,0 +1,3 @@
+Active Record is the ORM tool included with Ruby on Rails. It allows you to interact with databases using a simple and intuitive API, and provides a range of features such as associations, validations, and callbacks.
+
+[refer to ram.rb for active Record model definition]
