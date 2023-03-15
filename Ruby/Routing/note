@@ -1,0 +1,5 @@
+Routing is a core feature of Ruby on Rails. It allows you to map incoming HTTP requests to specific actions in your controllers. Rails uses a simple and intuitive syntax for defining routes, which makes it easy to build complex applications with a clean and organized URL structure.
+
+Routes can be defined in the config/routes.rb file, which is automatically loaded by Rails when the application starts up. 
+[refer to routing.rb for routing definition]
+It defines five different routes for a hypothetical ArticlesController. The get method maps the /articles URL to the index action, the post method maps the /articles URL to the create action, and so on. The :id parameter is used to capture a dynamic value from the URL, which can then be used in the controller action.
