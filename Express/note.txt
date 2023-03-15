@@ -1,0 +1,39 @@
+Express.js:
+Express.js is a Node.js framework for building web applications. 
+It was created in 2010 by TJ Holowaychuk, and has since become one of the most popular Node.js frameworks in use today.
+
+
+Features:
+
+Middleware: Express.js uses middleware functions to perform various tasks 
+such as parsing request bodies, authentication, logging, and error handling.
+
+Routing: Express provides a simple and intuitive API for defining routes and handling HTTP requests.
+
+Template engine support: Express supports a variety of template engines, 
+such as Handlebars and EJS, allowing you to easily render dynamic views.
+
+Error handling: Express provides a built-in error-handling mechanism that 
+makes it easy to catch and handle errors that occur during the request-response cycle.
+
+Static file serving: Express allows you to serve static files, such as images, 
+stylesheets, and JavaScript files, without the need for additional  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
