@@ -1,0 +1,14 @@
+Ruby on Rails:
+Ruby on Rails (often simply called Rails) is a web application framework written in the Ruby programming language. It was created in 2004 by David Heinemeier Hansson, and has since become one of the most popular web frameworks in use today.
+
+Features:
+
+MVC architecture: Rails follows the Model-View-Controller (MVC) architectural pattern, which helps to separate concerns and maintain code clarity.
+
+Convention over configuration: Rails favors convention over configuration, which means that it provides sensible defaults and automates many tasks, allowing developers to focus on building their application rather than configuring it.
+
+Active Record: Rails includes a powerful Object-Relational Mapping (ORM) tool called Active Record, which allows developers to interact with databases using a simple and intuitive API.
+
+Generators: Rails includes a set of command-line generators that can quickly create boilerplate code for various parts of an application, such as controllers, models, and views.
+
+Testing framework: Rails includes a built-in testing framework that makes it easy to write and run automated tests for your application.
