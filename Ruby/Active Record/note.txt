@@ -1,3 +1,9 @@
 Active Record is the ORM tool included with Ruby on Rails. It allows you to interact with databases using a simple and intuitive API, and provides a range of features such as associations, validations, and callbacks.
 
 [refer to ram.rb for active Record model definition]
+
+It defines an Article model that belongs to an Author model and has many Comment models. The validates method is used to specify a validation rule that requires the title attribute to be present.
+
+Active Record provides a wide range of methods for querying and manipulating data in the database, including find, where, create, update, and destroy. [Refer to query.rb for an example of using Active Record to query all articles with the word "Rails" in the title. 
+
+It returns a collection of Article objects that match the specified condition.
