@@ -1,0 +1,6 @@
+Ruby on Rails includes a comprehensive testing framework that makes it easy to write and run automated tests for your application. Rails uses a testing methodology called Test-Driven Development (TDD), which involves writing tests before writing code.
+
+Rails provides a range of testing tools, including unit tests, functional tests, and integration tests. 
+[Refer to test.rb for an example of a unit test for the Article ]
+
+This tests the validation rule that requires the title attribute to be present. The 'assert_not' method is used to check that the article.save method returns false, which indicates that the validation failed.
