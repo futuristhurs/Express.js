@@ -1,0 +1,7 @@
+Middleware is a key feature of Express that allows you to modify the request and response objects, and perform additional processing before and after the route handler functions are called. Middleware functions can be chained together, allowing you to build complex processing pipelines.
+
+[Refer to mw.js fofr an example of a middleware function that logs the incoming request]
+
+This middleware function logs the HTTP method and URL of every incoming request, and then calls the next function to pass control to the next middleware or route handler function.
+
+Express provides a range of built-in middleware functions for common tasks such as serving static files, parsing JSON and URL-encoded data, and handling errors.
