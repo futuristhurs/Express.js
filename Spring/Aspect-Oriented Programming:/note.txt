@@ -1,0 +1,7 @@
+Spring also provides support for Aspect-Oriented Programming (AOP), which allows you to modularize cross-cutting concerns, such as logging, caching, or security, into reusable components called Aspects.
+
+In AOP, you can define "advice" methods that get executed at specific points in the execution of a program, such as before or after a method call. Spring uses proxies to intercept method calls and apply advice methods, allowing you to add behavior to your code without modifying the original codebase.
+
+[Reer to AOP.java for an example of how Spring can be used for AOP]
+
+In this example, LoggingAspect defines a @Before advice method that gets executed before the doSomething method of MyService is called. The JoinPoint parameter contains information about the method call, such as the method signature.
