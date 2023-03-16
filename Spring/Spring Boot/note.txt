@@ -1,0 +1,10 @@
+Spring Boot is a popular extension of the Spring framework that provides a range of features for building production-ready applications with minimal configuration. It includes an embedded web server, automatic configuration, and a range of starter dependencies for common use cases.
+
+Spring Boot simplifies the process of creating standalone Spring applications, and includes features such as:
+
+Automatic configuration of common Spring components
+Embedded web server (Tomcat, Jetty, or Undertow)
+Health monitoring and metrics
+Command-line interface for running and managing the application
+Autoconfiguration of database connections and other external resources
+Easy integration with popular libraries and frameworks
