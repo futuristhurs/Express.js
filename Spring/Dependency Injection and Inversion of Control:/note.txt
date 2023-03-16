@@ -1,0 +1,7 @@
+One of the core features of the Spring framework is Dependency Injection (DI) and Inversion of Control (IoC). Spring provides an IoC container, which manages the lifecycle of application objects and injects dependencies between them.
+
+In DI, objects are given their dependencies rather than creating them themselves. This makes it easier to manage dependencies and reduces the coupling between different parts of the application. Spring uses the IoC container to instantiate and configure objects and their dependencies, and can automatically inject dependencies using annotations, XML configuration files, or Java configuration classes.
+
+[refer to DI.java for an example of how Spring can be used for DI]
+
+In this example, MyService depends on MyRepository, which is injected via the constructor. Spring automatically creates an instance of MyRepository and passes it to the constructor of MyService when it's created.
