@@ -1,0 +1,7 @@
+Express allows you to use a range of template engines to generate dynamic HTML content. Template engines provide a way to separate the presentation of data from the logic of your application, making it easier to maintain and modify your code.
+
+Express supports many popular template engines, including EJS, Handlebars, Pug (formerly Jade), and Mustache. 
+
+[Refer to TE.js for an example of using the EJS template engine to render a list of articles]
+
+It uses the res.render method to render a template named articles, passing in an object containing an array of articles. The template engine is responsible for generating the HTML content based on the template file and the data provided.
