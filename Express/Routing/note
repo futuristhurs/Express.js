@@ -1,0 +1,5 @@
+Routing is a core feature of Express. It allows you to map incoming HTTP requests to specific functions, called middleware, that handle the request and generate a response. Express provides a simple and flexible API for defining routes and middleware.
+
+Routes can be defined using the app.METHOD() functions, where METHOD is the HTTP method, such as get, post, put, delete, etc. 
+[Refer to routing.ja for an example of a route definition]
+It defines a GET route for the /articles URL, which responds with the string "List of articles". The req and res objects represent the request and response respectively, and provide a range of methods and properties for interacting with the client.
